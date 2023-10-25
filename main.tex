@@ -1,0 +1,88 @@
+\documentclass[a4paper]{article}
+\usepackage{fontspec}
+\usepackage[a4paper, xetex]{geometry}
+
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{courier}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\setlist{nolistsep}
+
+\lstset{columns=fullflexible}
+\lstset{basicstyle=\scriptsize\ttfamily}
+%\lstset{showspaces=false}
+%\lstset{showstringspaces=false}
+%
+\geometry{portrait}
+\setlength{\topmargin}{-0.5in}
+\setlength{\oddsidemargin}{-0.5in}
+%\setlength{\evensidemargin}{-in}
+\setlength{\columnsep}{1in}
+\setlength{\columnseprule}{0.2pt}
+\textwidth 185mm
+\textheight 250mm
+
+\pagestyle{fancy}
+\lhead{Tula State University (Baklanov, Vasin, Nechoroshev)}
+\chead{}
+\rhead{\thepage\ of \pageref{LastPage}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+\newcommand{\includecpp}[2]{
+    \subsection{#1}\
+    \lstinputlisting[language=c++, breaklines=true]{#2}
+}
+\newcommand{\includepy}[2]{
+    \subsection{#1}\
+    \lstinputlisting[language=python, breaklines=true]{#2}
+}
+\newcommand{\includescript}[2]{
+    \subsection{#1}\
+    \lstinputlisting[breaklines=true]{#2}
+}
+\newcommand{\includetex}[2]{
+    \subsection{#1}\
+    \input{#2}
+}
+
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+
+\begin{document}
+\thispagestyle{fancy}
+\pagenumbering{Roman}
+
+\begin{center}
+	\Huge\textsc{ACM-ICPC Team Reference Document}
+
+	\huge Tula State University (Baklanov, Vasin, Nechoroshev)
+
+	\vspace{0.50cm}
+\end{center}
+
+\begin{multicols*}{2}
+    \tableofcontents
+
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+    \input{contents.tex}
+\end{multicols*}
+
+%\enlargethispage*{\baselineskip}
+%\pagebreak
+
+% == CONTENTS == %
+
+%\pagenumbering{arabic}
+%\setcounter{page}{1}
+%
+%\begin{multicols*}{2}
+%	\input{contents.tex}
+%\end{multicols*}
+\end{document}
