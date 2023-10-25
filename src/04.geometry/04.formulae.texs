@@ -1,0 +1,40 @@
+$\\
+\textbf{Triangles.}\\
+\textit{Radius of circumscribed circle:}\\R = \frac{abc}{4S}.\\
+\textit{Radius of inscribed circle:}\\ r = \frac{S}{p}.\\
+\textit{Side via medians:}\\ a = \frac{2}{3}\sqrt{2(m_b^2 + m_c^2) - m_a^2}.\\
+\textit{Median via sides:}\\ m_a = \frac{1}{2}\sqrt{2(b^2 + c^2) - a^2}.\\
+\textit{Bisector via sides:}\\ l_a = \frac{2\sqrt{bcp(p-a)}}{b + c}.\\
+\textit{Bisector via two sides and angle:}\\ l_a = \frac{2bc\cos{\frac{\alpha}{2}}}{b + c}.\\
+\textit{Bisector via two sides and divided side:}\\ l_a = \sqrt{bc - a_b a_c}.\\$
+$\\
+\textbf{Right triangles}.\\$
+$a$, $b$ - cathets, $c$ - hypotenuse.\\
+$h$ - height to hypotenuse, divides $c$ to $c_a$ and $c_b$.$\\$
+$\begin{cases} h^2 = c_a \cdot c_b,\\ a^2 = c_a \cdot c,\\ b^2 = c_b \cdot c.\end{cases}\\$
+$\\
+\textbf{Quadrangles}.\\
+\textit{Sides of circumscribed quadrangle:}\\ a + c = b + d.\\
+\textit{Square of circumscribed quadrangle:}\\ S = \frac{Pr}{2} = pr.\\
+\textit{Angles of inscribed quadrangle:}\\ \alpha + \gamma = \beta + \delta = 180^{\circ}.\\
+\textit{Square of inscribed quadrangle:}\\ S = \sqrt{(p - a)(p - b)(p - c)(p - d)}.\\$
+$\\
+\textbf{Circles}.\\
+\textit{Intersection of circle and line:}\\
+\begin{cases}
+(x - x_0)^2 + (y - y_0)^2 = R^2\\
+y = ax + b\\
+\end{cases}\\$
+Task comes to solution of
+$\alpha x^2 + \beta x + \gamma = 0,\\$
+where$\\$
+$\begin{cases}\alpha = (1 + a^2),\\ \beta = (2a(b - y_0) - 2x_0),\\ \gamma = (x_0^2 + (b-y_0)^2 - R^2).\end{cases}\\$
+$\\
+\textit{Intersection of circle and circle:}\\
+\begin{cases}
+(x - x_0)^2 + (y - y_0)^2 = R_0^2\\
+(x - x_1)^2 + (y - y_1)^2 = R_1^2\\
+\end{cases}\\
+y = \frac{1}{2}\frac{(R_1^2 - R_0^2) + (x_0^2 - x_1^2) + (y_0^2 - y_1^2)}{y_0 - y_1} - \frac{x_0 - x_1}{y_0 - y_1}x\\
+$
+Task comes to intersection of circle and line.
