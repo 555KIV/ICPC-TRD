@@ -19,5 +19,5 @@ else if (abs(c * c - r * r * (a * a + b * b)) < eps) {
   by = y0 + a * mult;
   puts("2 points");
   cout << ax << ' ' << ay << '\n'
-       << bx << ' ' << by << '\
-n
+       << bx << ' ' << by << '\n'
+}
