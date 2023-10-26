@@ -1,4 +1,4 @@
-projectName = vu-acm-icpc-trd
+projectName = icpc-trd
 
 gen:
 	xelatex -jobname=$(projectName) main.tex
